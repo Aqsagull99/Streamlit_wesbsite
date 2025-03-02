@@ -123,10 +123,10 @@ if st.button("Subscribe"):
 st.write("## 👨‍💻 Meet Our Team 👩‍💻")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://source.unsplash.com/150x150/?person,developer", width=150)
+    st.image("https://i.pinimg.com/736x/62/ec/c9/62ecc93332c129c2b84ca11b0bc3ddbc.jpg", width=150)
     st.write("**🚀 Aqsa Gull** - Founder & Developer")
 with col2:
-    st.image("https://source.unsplash.com/150x150/?person,technology", width=150)
+    st.image("https://i.pinimg.com/736x/62/ec/c9/62ecc93332c129c2b84ca11b0bc3ddbc.jpg", width=150)
     st.write("**🌟 John Doe** - AI Expert")
 
 # ---- Fun Easter Egg - Surprise Balloons ----
