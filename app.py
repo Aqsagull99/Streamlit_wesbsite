@@ -104,12 +104,12 @@ st.write("## 📰 Latest News & Blog Updates")
 blog_col1, blog_col2 = st.columns(2)
 
 with blog_col1:
-    st.image("https://source.unsplash.com/300x200/?technology", width=300)
+    st.image("https://i.pinimg.com/736x/a7/a5/bc/a7a5bcd3d7e23738171ff44487878563.jpg", width=300)
     st.write("**📡 AI is Revolutionizing the World!**")
     st.write("AI and Web 3.0 are reshaping the future. [Read more](#)")
 
 with blog_col2:
-    st.image("https://source.unsplash.com/300x200/?business", width=300)
+    st.image("https://i.pinimg.com/736x/ba/f5/3d/baf53d70beddb35164271d31f047e221.jpg", width=300)
     st.write("**💻 5 Tips to Become a Pro Developer**")
     st.write("Master coding with these 5 simple steps. [Read more](#)")
 
@@ -132,6 +132,8 @@ with col2:
 # ---- Fun Easter Egg - Surprise Balloons ----
 if st.button("Click for a Surprise! 🎁"):
     st.balloons()
+
+
 
 
 
