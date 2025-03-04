@@ -10,9 +10,9 @@ st.markdown("""
         .stApp {
             # background-color: #111111;
             color: white;
-         background-image: url("https://i.pinimg.com/736x/fe/59/bb/fe59bbf15c4bbfbef93f238661a0f536.jpg");
-        background-size: cover;
-        background-attachment: fixed;
+        #  background-image: url("https://i.pinimg.com/736x/fe/59/bb/fe59bbf15c4bbfbef93f238661a0f536.jpg");
+        # background-size: cover;
+        # background-attachment: fixed;
         }
         
         /* Section Styling */
@@ -34,7 +34,7 @@ st.markdown("""
         .subtitle {
             font-size: 20px;
             font-weight: bold;
-            color: #ffffff;
+            color: #ff9800 !important;
             margin-bottom: 20px;
         }
 
@@ -63,6 +63,9 @@ st.markdown("""
             font-size: 24px;
             color: white;
         }
+        .button{
+        background: #222222;
+        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -70,9 +73,9 @@ st.markdown("""
 
 
 # ---- About Us Section ----
-st.image("https://images.pexels.com/photos/3184356/pexels-photo-3184356.jpeg", use_container_width=True)
+st.image("https://i.pinimg.com/736x/b5/85/4b/b5854bfc500b970ab5b575b930e9f0a3.jpg", use_container_width=True)
 
-st.markdown("<div class='container'>", unsafe_allow_html=True)
+# st.markdown("<div class='container'>", unsafe_allow_html=True)
 
 st.markdown("<p class='title'>Who We Are</p>", unsafe_allow_html=True)
 st.markdown("<p class='text'>We are a team of passionate developers, innovators, and strategists committed to building modern web applications. Our goal is to create engaging, user-friendly, and impactful experiences using **Streamlit and AI-driven technologies**.</p>", unsafe_allow_html=True)
@@ -89,8 +92,6 @@ st.markdown("""
 st.markdown("</div>", unsafe_allow_html=True)
 
 # ---- Contact Section ----
-st.markdown("<br>", unsafe_allow_html=True)
-st.markdown("<div class='contact-box'>", unsafe_allow_html=True)
 
 st.markdown("<p class='subtitle'>📬 Get in Touch</p>", unsafe_allow_html=True)
 st.markdown("<p class='contact-info'>📧 Email: contact@yourwebsite.com</p>", unsafe_allow_html=True)
@@ -102,4 +103,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ---- CTA Button ----
 st.markdown("<br>", unsafe_allow_html=True)
 st.button("📩 Contact Us")
+
+
+
 
