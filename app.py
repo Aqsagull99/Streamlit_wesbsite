@@ -92,8 +92,7 @@ st.markdown("<h1 class='center-text'>🚀 Welcome to My Website</h1>", unsafe_al
 st.markdown("<h3 class='center-text'>Explore different sections using the sidebar menu.</h3>", unsafe_allow_html=True)
 st.image("images/st_website_image.png", use_container_width=True)
 
-# # ---- Embedded YouTube Video ----
-# st.video("https://www.youtube.com/watch?v=your_video_id")
+
 
 # ---- Live Visitors Count ----
 visitors = random.randint(100, 500)
@@ -104,12 +103,12 @@ st.write("## 📰 Latest News & Blog Updates")
 blog_col1, blog_col2 = st.columns(2)
 
 with blog_col1:
-    st.image("https://i.pinimg.com/736x/a7/a5/bc/a7a5bcd3d7e23738171ff44487878563.jpg", width=300)
+    st.image("https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg", width=300)
     st.write("**📡 AI is Revolutionizing the World!**")
     st.write("AI and Web 3.0 are reshaping the future. [Read more](#)")
 
 with blog_col2:
-    st.image("https://i.pinimg.com/736x/ba/f5/3d/baf53d70beddb35164271d31f047e221.jpg", width=300)
+    st.image("https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg", width=300)
     st.write("**💻 5 Tips to Become a Pro Developer**")
     st.write("Master coding with these 5 simple steps. [Read more](#)")
 
@@ -123,15 +122,17 @@ if st.button("Subscribe"):
 st.write("## 👨‍💻 Meet Our Team 👩‍💻")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://i.pinimg.com/736x/62/ec/c9/62ecc93332c129c2b84ca11b0bc3ddbc.jpg", width=150)
+    st.image("https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg", width=150)
     st.write("**🚀 Aqsa Gull** - Founder & Developer")
 with col2:
-    st.image("https://i.pinimg.com/736x/62/ec/c9/62ecc93332c129c2b84ca11b0bc3ddbc.jpg", width=150)
+    st.image("https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg", width=150)
     st.write("**🌟 John Doe** - AI Expert")
 
 # ---- Fun Easter Egg - Surprise Balloons ----
 if st.button("Click for a Surprise! 🎁"):
     st.balloons()
+
+
 
 
 
