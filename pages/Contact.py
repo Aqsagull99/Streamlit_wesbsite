@@ -42,14 +42,14 @@ st.markdown("""
         .text {
             font-size: 16px;
             line-height: 1.8;
-            color: #333333;
+            color: #ff9800;
             margin-bottom: 20px;
         }
 
         /* Contact Info Styling */
         .contact-info {
             font-size: 18px;
-            color: #1e3c72;
+            color:#162447;
             margin-bottom: 10px;
         }
 
@@ -87,7 +87,7 @@ st.markdown("""
 
         /* Link Styling */
         a {
-            color: #1e3c72 !important;
+            color: #ff9800 !important;
             text-decoration: none;
             font-weight: bold;
         }
@@ -124,3 +124,7 @@ st.markdown("<p class='contact-info'>🔗 LinkedIn: <a href='https://linkedin.co
 st.markdown("<p class='contact-info'>🌍 Website: <a href='https://yourwebsite.com'>yourwebsite.com</a></p>", unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
+
+
+
