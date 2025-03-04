@@ -7,13 +7,11 @@ st.set_page_config(page_title="About Us", page_icon="ℹ️", layout="wide")
 st.markdown("""
     <style>
         /* Background Styling */
-        .stApp {
-            # background-color: #111111;
-            color: white;
-        #  background-image: url("https://i.pinimg.com/736x/fe/59/bb/fe59bbf15c4bbfbef93f238661a0f536.jpg");
-        # background-size: cover;
-        # background-attachment: fixed;
-        }
+        # .stApp {
+        #     # background-color: #111111;
+        #     color: white;
+        
+        # }
         
         /* Section Styling */
         .container {
@@ -63,8 +61,19 @@ st.markdown("""
             font-size: 24px;
             color: white;
         }
-        .button{
-        background: #222222;
+        
+        div.stButton > button {
+            background-color: #FFD700;
+            color: black;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+        div.stButton > button:hover {
+            background-color: #ff9800;
+            color: white;
         }
     </style>
 """, unsafe_allow_html=True)
