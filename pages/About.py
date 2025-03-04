@@ -7,9 +7,9 @@ st.set_page_config(page_title="About Us", page_icon="ℹ️", layout="wide")
 st.markdown("""
     <style>
         /* Background Styling */
-        # .stApp {
-        #     # background-color: #111111;
-        #     color: white;
+        .stApp {
+            background-color: #111111;
+            color: white;
         
         # }
         
