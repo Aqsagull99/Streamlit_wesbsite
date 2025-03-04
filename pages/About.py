@@ -66,8 +66,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
+
+
 # ---- About Us Section ----
-st.image("https://i.pinimg.com/736x/62/ec/c9/62ecc93332c129c2b84ca11b0bc3ddbc.jpg", use_container_width=True)
+st.image("https://images.pexels.com/photos/3184356/pexels-photo-3184356.jpeg", use_container_width=True)
 
 st.markdown("<div class='container'>", unsafe_allow_html=True)
 
