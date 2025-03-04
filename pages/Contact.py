@@ -49,7 +49,7 @@ st.markdown("""
         /* Contact Info Styling */
         .contact-info {
             font-size: 18px;
-            color:#162447;
+            color:#0a2472;
             margin-bottom: 10px;
         }
 
