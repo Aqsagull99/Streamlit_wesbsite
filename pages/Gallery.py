@@ -27,7 +27,7 @@ st.markdown("""
         .title {
             font-size: 50px !important;
             font-weight: bold;
-            color: #000000;
+            color: #ff9800;
             margin-bottom:20px;
             text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
         }
@@ -95,6 +95,8 @@ for img_url in image_urls:
 st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
+
 
 
 
