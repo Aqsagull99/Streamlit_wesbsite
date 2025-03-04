@@ -6,76 +6,95 @@ st.set_page_config(page_title="Contact Us", page_icon="📩", layout="wide")
 # ---- Custom CSS for Styling ----
 st.markdown("""
     <style>
-        /* Background Image */
+        /* Background Gradient */
         .stApp {
-            background: url('https://i.pinimg.com/736x/fe/59/bb/fe59bbf15c4bbfbef93f238661a0f536.jpg') 
-            no-repeat center center fixed;
-            background-size: cover;
-            background color:white;
+            # background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
         }
 
         /* Container Styling */
         .container {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(255, 255, 255, 0.9);
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
             text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
         }
 
+        /* Title Styling */
         .title {
             font-size: 36px;
             font-weight: bold;
-            color: #FFD700;
+            color: #1e3c72;
             margin-bottom: 10px;
         }
 
+        /* Subtitle Styling */
         .subtitle {
             font-size: 20px;
             font-weight: bold;
-            color: #ffffff;
+            color: #2a5298;
             margin-bottom: 20px;
         }
 
+        /* Text Styling */
         .text {
             font-size: 16px;
             line-height: 1.8;
-            # color: #cccccc;
-            color: #000000 !important;  /* Pure Black */
-            font-weight: bold;
+            color: #333333;
+            margin-bottom: 20px;
         }
 
+        /* Contact Info Styling */
         .contact-info {
             font-size: 18px;
-            color: #FFD700;
+            color: #1e3c72;
+            margin-bottom: 10px;
         }
 
+        /* Social Icons Styling */
         .social-icons {
             font-size: 24px;
-            color: white;
+            color: #2a5298;
+            margin-top: 20px;
         }
 
-        /* Form Styling */
-        .stTextInput input,.stTextArea textarea {
-             background-color: #222222 !important;
-              color: white !important;
+        /* Form Input Styling */
+        .stTextInput input, .stTextArea textarea {
+            background-color: #ffffff !important;
+            color: #333333 !important;
+            border: 1px solid #cccccc !important;
             border-radius: 5px !important;
             padding: 10px !important;
+            width: 100% !important;
         }
 
+        /* Button Styling */
         .stButton>button {
-            background-color: #FFD700 !important;
-            color: black !important;
+            background-color: #1e3c72 !important;
+            color: white !important;
             border-radius: 5px !important;
             padding: 10px 20px !important;
             font-weight: bold !important;
             cursor: pointer;
-        }
-        
-        .stButton>button:hover {
-            background-color: #ffcc00 !important;
+            transition: background-color 0.3s ease;
         }
 
+        .stButton>button:hover {
+            background-color: #2a5298 !important;
+        }
+
+        /* Link Styling */
+        a {
+            color: #1e3c72 !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #2a5298 !important;
+        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -101,8 +120,7 @@ st.markdown("<div class='container'>", unsafe_allow_html=True)
 
 st.markdown("<p class='subtitle'>📞 Contact Info</p>", unsafe_allow_html=True)
 st.markdown("<p class='contact-info'>📧 Email: contact@yourwebsite.com</p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>🔗 LinkedIn: <a href='https://linkedin.com/in/yourprofile' style='color:#FFD700;'>Your LinkedIn Profile</a></p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>🌍 Website: <a href='https://yourwebsite.com' style='color:#FFD700;'>yourwebsite.com</a></p>", unsafe_allow_html=True)
+st.markdown("<p class='contact-info'>🔗 LinkedIn: <a href='https://linkedin.com/in/yourprofile'>Your LinkedIn Profile</a></p>", unsafe_allow_html=True)
+st.markdown("<p class='contact-info'>🌍 Website: <a href='https://yourwebsite.com'>yourwebsite.com</a></p>", unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
-
