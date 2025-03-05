@@ -6,10 +6,7 @@ st.set_page_config(page_title="Contact Us", page_icon="📩", layout="wide")
 # ---- Custom CSS for Styling ----
 st.markdown("""
     <style>
-        /* Background Gradient */
-        .stApp {
-            # background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
-        }
+        
 
         /* Container Styling */
         .container {
@@ -119,11 +116,12 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("<div class='container'>", unsafe_allow_html=True)
 
 st.markdown("<p class='subtitle'>📞 Contact Info</p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>📧 Email: contact@yourwebsite.com</p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>🔗 LinkedIn: <a href='https://linkedin.com/in/yourprofile'>Your LinkedIn Profile</a></p>", unsafe_allow_html=True)
+st.markdown("<p class='contact-info'>📧 Email: aqsa.gull.dev.ai99@gmail.com</p>", unsafe_allow_html=True)
+st.markdown("<p class='contact-info'>🔗 LinkedIn: <a href='https://www.linkedin.com/in/aqsa-gullofficial99/'>Your LinkedIn Profile</a></p>", unsafe_allow_html=True)
 st.markdown("<p class='contact-info'>🌍 Website: <a href='https://yourwebsite.com'>yourwebsite.com</a></p>", unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 

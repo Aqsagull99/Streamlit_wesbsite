@@ -26,6 +26,7 @@ st.markdown("""
         border-radius: 10px;
         padding: 10px;
         text-align: center;
+        color: #000000 !important;
     }
     
     /* Input Fields */

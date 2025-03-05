@@ -6,12 +6,11 @@ st.set_page_config(page_title="About Us", page_icon="ℹ️", layout="wide")
 # ---- Custom CSS Styling ----
 st.markdown("""
     <style>
-        /* Background Styling */
-        .stApp {
-            background-color: #111111;
-            color: white;
-        
-        # }
+        body {
+            background-color: #000000 !important;
+            color: #ffffff !important;
+            font-family: 'Arial', sans-serif;
+        }
         
         /* Section Styling */
         .container {
@@ -39,8 +38,7 @@ st.markdown("""
         .text {
             font-size: 16px;
             line-height: 1.8;
-            # color: #cccccc;
-            color: #000000 !important;  /* Pure Black */
+            color: #FFD700 !important;
              font-weight: bold;
         }
 
@@ -84,7 +82,6 @@ st.markdown("""
 # ---- About Us Section ----
 st.image("https://i.pinimg.com/736x/b5/85/4b/b5854bfc500b970ab5b575b930e9f0a3.jpg", use_container_width=True)
 
-# st.markdown("<div class='container'>", unsafe_allow_html=True)
 
 st.markdown("<p class='title'>Who We Are</p>", unsafe_allow_html=True)
 st.markdown("<p class='text'>We are a team of passionate developers, innovators, and strategists committed to building modern web applications. Our goal is to create engaging, user-friendly, and impactful experiences using **Streamlit and AI-driven technologies**.</p>", unsafe_allow_html=True)
@@ -103,7 +100,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ---- Contact Section ----
 
 st.markdown("<p class='subtitle'>📬 Get in Touch</p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>📧 Email: contact@yourwebsite.com</p>", unsafe_allow_html=True)
+st.markdown("<p class='contact-info'>📧 Email: aqsa.gull.dev.ai99@gmail.com</p>", unsafe_allow_html=True)
 st.markdown("<p class='contact-info'>🌐 Website: <a href='#' style='color:#FFD700;'>yourwebsite.com</a></p>", unsafe_allow_html=True)
 st.markdown("<p class='contact-info'>📍 Location: Remote & Global</p>", unsafe_allow_html=True)
 
@@ -112,6 +109,8 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ---- CTA Button ----
 st.markdown("<br>", unsafe_allow_html=True)
 st.button("📩 Contact Us")
+
+
 
 
 
